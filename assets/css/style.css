@@ -3,6 +3,23 @@ body {
   padding: 0px;
 }
 
+.sticky_menu {
+  width: 30%;
+  float: right;
+  margin-top: 50px;
+  position: sticky;
+  top: 0;
+  border: 1px solid palegreen;
+  background-color: antiquewhite;
+}
+.sticky_menu h1{
+  text-align: center;
+}
+.css_position{
+  width: 40%;
+  margin: 0 auto;
+
+}
 .sec-area {
   text-align: center;
 }
@@ -35,11 +52,13 @@ body {
 .main-box {
   width: 300px;
   height: 300px;
+  text-align: center;
   background: black;
-  margin: auto;
   margin-top: 20px;
+  margin-left: 38%;
   position: relative;
   overflow: hidden;
+  display: inline-block;
 }
 .main-box:hover .box1 {
   right: 0;
@@ -168,8 +187,8 @@ img {
 /*=======Flag======*/
 .flag {
   width: 500px;
-  background: skyblue;
   height: 500px;
+  background: skyblue;
 }
 .rectangle {
   top: 5%;
